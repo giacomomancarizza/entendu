@@ -1,0 +1,25 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: sudo apt-get install -y ffmpeg
+      - run: pip install -e ".[dev]"
+      - run: pytest -q
+      - name: Offline end to end run
+        run: |
+          entendu process "Le Café du Lundi" --transcript examples/cafe-du-lundi.vtt \
+            --replay tests/fixtures/sample_notes.json --chunk-minutes 1.5
+          entendu anki -o /tmp/deck.txt
