@@ -1,0 +1,264 @@
+[
+  {
+    "gist": "Camille racconta una settimana pesantissima: la sua startup lancia tra due settimane un'app che aiuta a tenere sotto controllo gli abbonamenti dimenticati.",
+    "vocabulary": [
+      {
+        "term": "boulot",
+        "lemma": "boulot",
+        "pos": "noun",
+        "gender": "m",
+        "meaning": "lavoro (familiare)",
+        "example": "le podcast où on parle boulot, vie quotidienne et tout le reste",
+        "level": "B1",
+        "note": "Sinonimo familiare di « travail », molto frequente nel parlato."
+      },
+      {
+        "term": "bossé",
+        "lemma": "bosser",
+        "pos": "verb",
+        "meaning": "lavorare, sgobbare (familiare)",
+        "example": "Hier, j'ai bossé jusqu'à vingt-deux heures.",
+        "level": "B1"
+      },
+      {
+        "term": "ordi",
+        "lemma": "ordi",
+        "pos": "noun",
+        "gender": "m",
+        "meaning": "computer (abbreviazione di « ordinateur »)",
+        "example": "Samedi matin, j'étais déjà devant mon ordi.",
+        "level": "B1"
+      },
+      {
+        "term": "appli",
+        "lemma": "appli",
+        "pos": "noun",
+        "gender": "f",
+        "meaning": "app (abbreviazione di « application »)",
+        "example": "C'est une appli qui aide les gens à suivre leurs abonnements.",
+        "level": "A2"
+      },
+      {
+        "term": "abonnements",
+        "lemma": "abonnement",
+        "pos": "noun",
+        "gender": "m",
+        "meaning": "abbonamento",
+        "example": "Elle aide les gens à suivre tous leurs abonnements.",
+        "level": "A2",
+        "note": "Esempio parafrasato dal modello: viene sostituito con la frase reale."
+      },
+      {
+        "term": "trucmuche",
+        "lemma": "trucmuche",
+        "pos": "noun",
+        "gender": "m",
+        "meaning": "coso, aggeggio",
+        "example": "Il a acheté un trucmuche pour son vélo.",
+        "level": "B2",
+        "note": "Non presente nella trascrizione: deve essere scartato."
+      }
+    ],
+    "expressions": [
+      {
+        "expression": "avoir du pain sur la planche",
+        "meaning": "avere molto lavoro da fare",
+        "literal": "avere del pane sulla tavola",
+        "register": "familiar",
+        "example": "franchement j'ai du pain sur la planche"
+      },
+      {
+        "expression": "tenir le coup",
+        "meaning": "reggere, resistere sotto pressione",
+        "register": "standard",
+        "example": "Et l'équipe, elle tient le coup ?"
+      },
+      {
+        "expression": "être sur les rotules",
+        "meaning": "essere a pezzi, sfinito",
+        "literal": "essere sulle rotule",
+        "register": "familiar",
+        "example": "on est tous un peu sur les rotules"
+      },
+      {
+        "expression": "faire la grasse matinée",
+        "meaning": "dormire fino a tardi",
+        "register": "standard",
+        "example": "T'as pas eu le temps de faire la grasse matinée ce week-end, j'imagine."
+      },
+      {
+        "expression": "c'est pas la mer à boire",
+        "meaning": "non è niente di impossibile, non è un dramma",
+        "literal": "non è il mare da bere",
+        "register": "familiar",
+        "example": "c'est pas la mer à boire, c'est juste une période chargée"
+      },
+      {
+        "expression": "lâcher l'affaire",
+        "meaning": "mollare, lasciar perdere",
+        "register": "familiar",
+        "example": "nos auditeurs vont pas lâcher l'affaire si tu restes vague"
+      },
+      {
+        "expression": "coûter une blinde",
+        "meaning": "costare un occhio della testa",
+        "register": "slang",
+        "example": "qui finissent par coûter une blinde"
+      }
+    ],
+    "moments": [
+      {
+        "quote": "On lance un nouveau produit dans deux semaines.",
+        "summary": "Il nuovo prodotto esce tra due settimane.",
+        "why_missed": "Detto di corsa subito dopo un'espressione idiomatica."
+      },
+      {
+        "quote": "nos premiers utilisateurs économisent trente-huit euros par mois",
+        "summary": "I primi utenti risparmiano in media 38 euro al mese.",
+        "why_missed": "Numero detto in fretta, « trente-huit » si confonde facilmente."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Quand est-ce que Camille lance son nouveau produit ?",
+        "answer": "Dans deux semaines",
+        "explanation": "Lo dice subito dopo « j'ai du pain sur la planche ».",
+        "quote": "On lance un nouveau produit dans deux semaines."
+      },
+      {
+        "question": "Combien économisent en moyenne les premiers utilisateurs ?",
+        "answer": "Trente-huit euros par mois",
+        "explanation": "È il dato che usa per spiegare il valore dell'app.",
+        "quote": "nos premiers utilisateurs économisent trente-huit euros par mois"
+      }
+    ]
+  },
+  {
+    "gist": "Il modello di business passa dall'abbonamento a una commissione; gli investitori sono più prudenti e la crescita arriva dal passaparola e da un video virale su TikTok.",
+    "vocabulary": [
+      {
+        "term": "résilier",
+        "lemma": "résilier",
+        "pos": "verb",
+        "meaning": "disdire (un contratto, un abbonamento)",
+        "example": "On prend une petite commission quand on aide quelqu'un à résilier ou à trouver une offre moins chère.",
+        "level": "B2",
+        "note": "Falso amico: non significa « resilire » ma « disdire »."
+      },
+      {
+        "term": "frileux",
+        "lemma": "frileux",
+        "pos": "adjective",
+        "meaning": "prudente, timoroso (in senso figurato); letteralmente freddoloso",
+        "example": "ils sont beaucoup plus frileux qu'il y a deux ans",
+        "level": "C1"
+      },
+      {
+        "term": "lever des fonds",
+        "lemma": "lever",
+        "pos": "verb",
+        "meaning": "raccogliere capitali (lever des fonds)",
+        "example": "c'est pas évident de lever des fonds",
+        "level": "B2"
+      },
+      {
+        "term": "pub",
+        "lemma": "pub",
+        "pos": "noun",
+        "gender": "f",
+        "meaning": "pubblicità (abbreviazione di « publicité »)",
+        "example": "Sans pub ? Comment vous faites ?",
+        "level": "A2"
+      },
+      {
+        "term": "planté",
+        "lemma": "planter",
+        "pos": "verb",
+        "meaning": "andare in crash (di un computer o server)",
+        "example": "Le lendemain, nos serveurs ont planté",
+        "level": "B2",
+        "note": "Nel senso informatico; « planter » significa anche « piantare »."
+      }
+    ],
+    "expressions": [
+      {
+        "expression": "l'arroseur arrosé",
+        "meaning": "chi la fa l'aspetti: chi crea un problema finisce per subirlo",
+        "literal": "l'innaffiatore innaffiato",
+        "register": "standard",
+        "example": "ce qui était un peu l'arroseur arrosé, tu vois",
+        "note": "Dal titolo di uno dei primi film dei fratelli Lumière (1895)."
+      },
+      {
+        "expression": "se tirer une balle dans le pied",
+        "meaning": "darsi la zappa sui piedi",
+        "literal": "spararsi un colpo nel piede",
+        "register": "familiar",
+        "example": "c'est un peu se tirer une balle dans le pied"
+      },
+      {
+        "expression": "mettre la charrue avant les bœufs",
+        "meaning": "mettere il carro davanti ai buoi",
+        "register": "standard",
+        "example": "Faut pas mettre la charrue avant les bœufs."
+      },
+      {
+        "expression": "faire un carton",
+        "meaning": "avere un enorme successo",
+        "register": "familiar",
+        "example": "une vidéo sur TikTok qui a fait un carton"
+      },
+      {
+        "expression": "un truc de ouf",
+        "meaning": "una cosa pazzesca",
+        "register": "slang",
+        "example": "un truc de ouf, on s'y attendait pas du tout",
+        "note": "« ouf » è il verlan di « fou »."
+      },
+      {
+        "expression": "la rançon du succès",
+        "meaning": "il prezzo del successo",
+        "register": "standard",
+        "example": "Ah, la rançon du succès."
+      },
+      {
+        "expression": "péter les plombs",
+        "meaning": "dare di matto, esaurirsi",
+        "literal": "far saltare i fusibili",
+        "register": "slang",
+        "example": "sinon vous allez péter les plombs"
+      }
+    ],
+    "moments": [
+      {
+        "quote": "Revenez quand vous aurez dix mille utilisateurs.",
+        "summary": "Un investitore ha detto di tornare con 10.000 utenti.",
+        "why_missed": "Citazione diretta, cambio di voce e di ritmo."
+      },
+      {
+        "quote": "On est à quatre mille deux cents, à peu près.",
+        "summary": "Hanno circa 4.200 utenti e ne guadagnano 300-400 a settimana senza pubblicità.",
+        "why_missed": "Due numeri lunghi uno dopo l'altro."
+      },
+      {
+        "quote": "Un million de vues en quatre jours.",
+        "summary": "Il video TikTok ha fatto un milione di visualizzazioni in quattro giorni e ha fatto crollare i server.",
+        "why_missed": "Detto velocemente, con « ont planté » in senso informatico."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Pourquoi l'équipe a-t-elle abandonné l'idée de l'abonnement ?",
+        "answer": "Parce que c'était contradictoire pour une appli contre les abonnements",
+        "explanation": "È l'« arroseur arrosé »: un'app contro gli abbonamenti che chiede un abbonamento. Ora prendono una commissione.",
+        "quote": "Une appli contre les abonnements qui te demande un abonnement"
+      },
+      {
+        "question": "Qu'est-ce qui s'est passé après la vidéo sur TikTok ?",
+        "answer": "Les serveurs ont planté",
+        "explanation": "Un milione di visualizzazioni in quattro giorni: il giorno dopo i server sono andati in crash.",
+        "quote": "Le lendemain, nos serveurs ont planté"
+      }
+    ]
+  }
+]

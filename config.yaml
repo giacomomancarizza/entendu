@@ -1,0 +1,29 @@
+# Where lessons are saved (one .html and one .md per episode)
+lessons_dir: ~/Documents/Francese
+
+learner:
+  level: B2                 # skip what is too easy for this level
+  native_language: Italian
+  explain_in: Italian       # language for meanings, explanations and answers
+  interests: startups, finance, venture capital
+
+spotify:
+  token_cache: data/.spotify_token
+  window_minutes: 40        # first run, no history yet: lesson on the last 40 minutes heard
+  pad_seconds: 90           # margin around the part heard (ads can shift positions)
+
+# RSS feeds are found automatically from the show name (Apple Podcasts directory).
+# Add a show here only if it is not found or the wrong feed is picked.
+podcasts:
+  - name: French with Félix
+    feed: https://feeds.acast.com/public/shows/learn-french-with-felix
+
+model: claude-sonnet-5-5
+whisper_model: small        # tiny, base, small, medium: bigger is slower and more accurate
+chunk_minutes: 8            # transcript block sent to Claude in one call
+max_vocab: 25
+max_expressions: 15
+
+db_path: data/entendu.db    # words already studied and Spotify positions
+cache_dir: data/cache       # downloaded audio
+output_dir: sheets          # used by 'entendu process'
